@@ -1,0 +1,26 @@
+name: go2d1_floating
+attached_robots:
+- robot_name: go2d1
+  attachment_point: World
+  joint_type: Floating
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: -3.14
+    upper: 3.14
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  safety_controller: null

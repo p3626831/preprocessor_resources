@@ -1,0 +1,659 @@
+name: UF_ROBOT
+links:
+- name: world
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.0
+    inertia:
+      ixx: 0.0
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.0
+      iyz: 0.0
+      izz: 0.0
+  visual: []
+  collision: []
+- name: link_base
+  inertial:
+    origin:
+      xyz:
+      - -0.00829544579053192
+      - 0.0000326357432323433
+      - 0.0631194584987089
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 1.65393501783165
+    inertia:
+      ixx: 0.0
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.0
+      iyz: 0.0
+      izz: 0.0
+  visual:
+  - name: White
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/visual/link_base.stl
+      scale: null
+    material: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/collision/link_base.stl
+      scale: null
+- name: link1
+  inertial:
+    origin:
+      xyz:
+      - -0.00036
+      - 0.04195
+      - -0.0025
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 1.411
+    inertia:
+      ixx: 0.0014516400000000001
+      ixy: -0.0000124
+      ixz: 6.7e-6
+      iyy: 0.0008872999999999999
+      iyz: -0.0001255
+      izz: 0.00131993
+  visual:
+  - name: White
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/visual/link1.stl
+      scale: null
+    material: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/collision/link1.stl
+      scale: null
+- name: link2
+  inertial:
+    origin:
+      xyz:
+      - 0.179
+      - 0.0
+      - 0.0584
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 1.34
+    inertia:
+      ixx: 0.0015854
+      ixy: 6.766e-6
+      ixz: 0.00115136
+      iyy: 0.0056097
+      iyz: -1.1399999999999999e-6
+      izz: 0.00485
+  visual:
+  - name: White
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/visual/link2.stl
+      scale: null
+    material: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/collision/link2.stl
+      scale: null
+- name: link3
+  inertial:
+    origin:
+      xyz:
+      - 0.072
+      - -0.0357
+      - -0.001
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.953
+    inertia:
+      ixx: 0.0008861
+      ixy: 0.00039286999999999997
+      ixz: -0.00007065999999999999
+      iyy: 0.0015784999999999998
+      iyz: 0.000024449999999999998
+      izz: 0.00184677
+  visual:
+  - name: White
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/visual/link3.stl
+      scale: null
+    material: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/collision/link3.stl
+      scale: null
+- name: link4
+  inertial:
+    origin:
+      xyz:
+      - -0.002
+      - -0.0285
+      - -0.0813
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 1.284
+    inertia:
+      ixx: 0.003705
+      ixy: 2e-6
+      ixz: -7.17e-6
+      iyy: 0.0030455
+      iyz: 0.00093188
+      izz: 0.0015412999999999998
+  visual:
+  - name: White
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/visual/link4.stl
+      scale: null
+    material: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/collision/link4.stl
+      scale: null
+- name: link5
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.01
+      - 0.0019
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.804
+    inertia:
+      ixx: 0.0005667999999999999
+      ixy: -6e-7
+      ixz: 5.299999999999999e-6
+      iyy: 0.0005076999999999999
+      iyz: 4.8e-7
+      izz: 0.00053
+  visual:
+  - name: White
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/visual/link5.stl
+      scale: null
+    material: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/collision/link5.stl
+      scale: null
+- name: link6
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - -0.00194
+      - -0.0102
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.13
+    inertia:
+      ixx: 0.00007726
+      ixy: -1e-6
+      ixz: -4e-7
+      iyy: 0.000085665
+      iyz: 6e-7
+      izz: 0.00014813999999999997
+  visual:
+  - name: Silver
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/visual/link6.stl
+      scale: null
+    material: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://xarm_description/meshes/lite6/collision/link6.stl
+      scale: null
+- name: link_eef
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.0
+    inertia:
+      ixx: 0.0
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.0
+      iyz: 0.0
+      izz: 0.0
+  visual: []
+  collision: []
+joints:
+- name: world_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: world
+  child:
+    link: link_base
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: joint1
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.2435
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: link_base
+  child:
+    link: link1
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 1.0
+  limit:
+    lower: -6.283185307179586
+    upper: 6.283185307179586
+    effort: 50.0
+    velocity: 3.14
+  dynamics:
+    damping: 1.0
+    friction: 1.0
+  mimic: null
+  safety_controller: null
+- name: joint2
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+    rpy:
+    - 1.5708
+    - -1.5708
+    - 3.1416
+  parent:
+    link: link1
+  child:
+    link: link2
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 1.0
+  limit:
+    lower: -2.61799
+    upper: 2.61799
+    effort: 50.0
+    velocity: 3.14
+  dynamics:
+    damping: 1.0
+    friction: 1.0
+  mimic: null
+  safety_controller: null
+- name: joint3
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.2002
+    - 0.0
+    - 0.0
+    rpy:
+    - -3.1416
+    - 0.0
+    - 1.5708
+  parent:
+    link: link2
+  child:
+    link: link3
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 1.0
+  limit:
+    lower: -0.061087
+    upper: 5.235988
+    effort: 32.0
+    velocity: 3.14
+  dynamics:
+    damping: 1.0
+    friction: 1.0
+  mimic: null
+  safety_controller: null
+- name: joint4
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.087
+    - -0.22761
+    - 0.0
+    rpy:
+    - 1.5708
+    - 0.0
+    - 0.0
+  parent:
+    link: link3
+  child:
+    link: link4
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 1.0
+  limit:
+    lower: -6.283185307179586
+    upper: 6.283185307179586
+    effort: 32.0
+    velocity: 3.14
+  dynamics:
+    damping: 1.0
+    friction: 1.0
+  mimic: null
+  safety_controller: null
+- name: joint5
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+    rpy:
+    - 1.5708
+    - 0.0
+    - 0.0
+  parent:
+    link: link4
+  child:
+    link: link5
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 1.0
+  limit:
+    lower: -2.1642
+    upper: 2.1642
+    effort: 32.0
+    velocity: 3.14
+  dynamics:
+    damping: 1.0
+    friction: 1.0
+  mimic: null
+  safety_controller: null
+- name: joint6
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.0625
+    - 0.0
+    rpy:
+    - -1.5708
+    - 0.0
+    - 0.0
+  parent:
+    link: link5
+  child:
+    link: link6
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 1.0
+  limit:
+    lower: -6.283185307179586
+    upper: 6.283185307179586
+    effort: 20.0
+    velocity: 3.14
+  dynamics:
+    damping: 1.0
+    friction: 1.0
+  mimic: null
+  safety_controller: null
+- name: joint_eef
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: link6
+  child:
+    link: link_eef
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+materials:
+- name: Black
+  color:
+    rgba:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+  texture: null
+- name: Red
+  color:
+    rgba:
+    - 0.8
+    - 0.0
+    - 0.0
+    - 1.0
+  texture: null
+- name: White
+  color:
+    rgba:
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+  texture: null
+- name: Silver
+  color:
+    rgba:
+    - 0.753
+    - 0.753
+    - 0.753
+    - 1.0
+  texture: null

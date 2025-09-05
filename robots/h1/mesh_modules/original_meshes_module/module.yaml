@@ -1,0 +1,26 @@
+link_mesh_relative_paths:
+- - h1/mesh_modules/original_meshes_module/meshes/pelvis.dae
+- - h1/mesh_modules/original_meshes_module/meshes/left_hip_yaw_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/left_hip_roll_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/left_hip_pitch_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/left_knee_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/left_ankle_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/right_hip_yaw_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/right_hip_roll_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/right_hip_pitch_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/right_knee_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/right_ankle_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/torso_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/left_shoulder_pitch_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/left_shoulder_roll_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/left_shoulder_yaw_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/left_elbow_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/right_shoulder_pitch_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/right_shoulder_roll_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/right_shoulder_yaw_link.dae
+- - h1/mesh_modules/original_meshes_module/meshes/right_elbow_link.dae
+- []
+- - h1/mesh_modules/original_meshes_module/meshes/logo_link.dae
+- []
+- []
+- []

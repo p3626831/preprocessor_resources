@@ -1,0 +1,86 @@
+links_in_chain:
+- name: base_link
+  link_idx: 0
+  parent_joint_idx: 4
+  parent_link_idx: 5
+  children_joint_idxs:
+  - 0
+  - 3
+  children_link_idxs:
+  - 1
+  - 4
+- name: shoulder_link
+  link_idx: 1
+  parent_joint_idx: 0
+  parent_link_idx: 0
+  children_joint_idxs:
+  - 1
+  children_link_idxs:
+  - 2
+- name: upper_arm_link
+  link_idx: 2
+  parent_joint_idx: 1
+  parent_link_idx: 1
+  children_joint_idxs:
+  - 2
+  children_link_idxs:
+  - 3
+- name: forearm_link
+  link_idx: 3
+  parent_joint_idx: 2
+  parent_link_idx: 2
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: base
+  link_idx: 4
+  parent_joint_idx: 3
+  parent_link_idx: 0
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: world
+  link_idx: 5
+  parent_joint_idx: null
+  parent_link_idx: null
+  children_joint_idxs:
+  - 4
+  children_link_idxs:
+  - 0
+joints_in_chain:
+- joint_name: shoulder_pan_joint
+  joint_idx: 0
+  parent_link_name: base_link
+  parent_link_idx: 0
+  child_link_name: shoulder_link
+  child_link_idx: 1
+- joint_name: shoulder_lift_joint
+  joint_idx: 1
+  parent_link_name: shoulder_link
+  parent_link_idx: 1
+  child_link_name: upper_arm_link
+  child_link_idx: 2
+- joint_name: elbow_joint
+  joint_idx: 2
+  parent_link_name: upper_arm_link
+  parent_link_idx: 2
+  child_link_name: forearm_link
+  child_link_idx: 3
+- joint_name: base_link-base_fixed_joint
+  joint_idx: 3
+  parent_link_name: base_link
+  parent_link_idx: 0
+  child_link_name: base
+  child_link_idx: 4
+- joint_name: world_joint
+  joint_idx: 4
+  parent_link_name: world
+  parent_link_idx: 5
+  child_link_name: base_link
+  child_link_idx: 0
+kinematic_hierarchy:
+- - 5
+- - 0
+- - 1
+  - 4
+- - 2
+- - 3
+root_idx: 5

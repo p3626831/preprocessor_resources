@@ -1,0 +1,2641 @@
+name: b1_floating_base
+links:
+- name: combined_robot_world
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.0
+    inertia:
+      ixx: 1.0
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 1.0
+      iyz: 0.0
+      izz: 1.0
+  visual: []
+  collision: []
+- name: robot_0_base
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.0
+    inertia:
+      ixx: 0.0
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.0
+      iyz: 0.0
+      izz: 0.0
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.001
+      - 0.001
+      - 0.001
+    material: null
+  collision: []
+- name: robot_0_trunk
+  inertial:
+    origin:
+      xyz:
+      - 0.008987
+      - 0.002243
+      - 0.003013
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 25.0
+    inertia:
+      ixx: 0.183142146
+      ixy: -0.001379002
+      ixz: -0.027956055
+      iyy: 0.756327752
+      iyz: 0.000193774
+      izz: 0.783777558
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://b1_description/meshes/trunk.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.647
+      - 0.3
+      - 0.15
+- name: robot_0_imu_link
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.001
+    inertia:
+      ixx: 0.0001
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 1e-6
+      iyz: 0.0
+      izz: 0.0001
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.001
+      - 0.001
+      - 0.001
+    material:
+      name: red
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.001
+      - 0.001
+      - 0.001
+- name: robot_0_FR_hip
+  inertial:
+    origin:
+      xyz:
+      - -0.020298
+      - -0.009758
+      - 0.000109
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 2.1
+    inertia:
+      ixx: 0.00406608
+      ixy: 0.000288071
+      ixz: -4.371e-6
+      iyy: 0.008775259
+      iyz: -1.811e-6
+      izz: 0.006060348
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 3.141592653589793
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://b1_description/meshes/hip.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - -0.12675
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.09
+      length: 0.04
+- name: robot_0_FR_hip_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.199
+    inertia:
+      ixx: 0.00039249
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000219397
+      iyz: 0.0
+      izz: 0.000219397
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+- name: robot_0_FR_thigh
+  inertial:
+    origin:
+      xyz:
+      - -0.000235
+      - 0.028704
+      - -0.054169
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 3.934
+    inertia:
+      ixx: 0.044459086
+      ixy: -0.000128738
+      ixz: -0.002343913
+      iyy: 0.046023457
+      iyz: -0.006032996
+      izz: 0.008696078
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://b1_description/meshes/thigh_mirror.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.175
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.35
+      - 0.05
+      - 0.08
+- name: robot_0_FR_thigh_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.266
+    inertia:
+      ixx: 0.000485657
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.00091885
+      iyz: 0.0
+      izz: 0.000485657
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+- name: robot_0_FR_calf
+  inertial:
+    origin:
+      xyz:
+      - 0.005237
+      - 0.0
+      - -0.202805
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.857
+    inertia:
+      ixx: 0.015011003
+      ixy: 5.2e-8
+      ixz: 0.000250042
+      iyy: 0.015159462
+      iyz: 4.61e-7
+      izz: 0.000375749
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://b1_description/meshes/calf.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.175
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.35
+      - 0.04
+      - 0.05
+- name: robot_0_FR_calf_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.266
+    inertia:
+      ixx: 0.000485657
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.00091885
+      iyz: 0.0
+      izz: 0.000485657
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+- name: robot_0_FR_foot
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.05
+    inertia:
+      ixx: 0.000032000000000000005
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000032000000000000005
+      iyz: 0.0
+      izz: 0.000032000000000000005
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.03
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.04
+- name: robot_0_FL_hip
+  inertial:
+    origin:
+      xyz:
+      - -0.020298
+      - 0.009758
+      - 0.000109
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 2.1
+    inertia:
+      ixx: 0.00406608
+      ixy: -0.000288071
+      ixz: -4.371e-6
+      iyy: 0.008775259
+      iyz: 1.811e-6
+      izz: 0.006060348
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://b1_description/meshes/hip.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.12675
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.09
+      length: 0.04
+- name: robot_0_FL_hip_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.199
+    inertia:
+      ixx: 0.00039249
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000219397
+      iyz: 0.0
+      izz: 0.000219397
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+- name: robot_0_FL_thigh
+  inertial:
+    origin:
+      xyz:
+      - -0.000235
+      - -0.028704
+      - -0.054169
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 3.934
+    inertia:
+      ixx: 0.044459086
+      ixy: 0.000128738
+      ixz: -0.002343913
+      iyy: 0.046023457
+      iyz: 0.006032996
+      izz: 0.008696078
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://b1_description/meshes/thigh.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.175
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.35
+      - 0.05
+      - 0.08
+- name: robot_0_FL_thigh_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.266
+    inertia:
+      ixx: 0.000485657
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.00091885
+      iyz: 0.0
+      izz: 0.000485657
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+- name: robot_0_FL_calf
+  inertial:
+    origin:
+      xyz:
+      - 0.005237
+      - 0.0
+      - -0.202805
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.857
+    inertia:
+      ixx: 0.015011003
+      ixy: 5.2e-8
+      ixz: 0.000250042
+      iyy: 0.015159462
+      iyz: 4.61e-7
+      izz: 0.000375749
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://b1_description/meshes/calf.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.175
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.35
+      - 0.04
+      - 0.05
+- name: robot_0_FL_calf_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.266
+    inertia:
+      ixx: 0.000485657
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.00091885
+      iyz: 0.0
+      izz: 0.000485657
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+- name: robot_0_FL_foot
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.05
+    inertia:
+      ixx: 0.000032000000000000005
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000032000000000000005
+      iyz: 0.0
+      izz: 0.000032000000000000005
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.03
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.04
+- name: robot_0_RR_hip
+  inertial:
+    origin:
+      xyz:
+      - 0.020298
+      - -0.009758
+      - 0.000109
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 2.1
+    inertia:
+      ixx: 0.00406608
+      ixy: -0.000288071
+      ixz: 4.371e-6
+      iyy: 0.008775259
+      iyz: -1.811e-6
+      izz: 0.006060348
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 3.141592653589793
+      - 3.141592653589793
+      - 0.0
+    geometry: !Mesh
+      filename: package://b1_description/meshes/hip.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - -0.12675
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.09
+      length: 0.04
+- name: robot_0_RR_hip_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.199
+    inertia:
+      ixx: 0.00039249
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000219397
+      iyz: 0.0
+      izz: 0.000219397
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+- name: robot_0_RR_thigh
+  inertial:
+    origin:
+      xyz:
+      - -0.000235
+      - 0.028704
+      - -0.054169
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 3.934
+    inertia:
+      ixx: 0.044459086
+      ixy: -0.000128738
+      ixz: -0.002343913
+      iyy: 0.046023457
+      iyz: -0.006032996
+      izz: 0.008696078
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://b1_description/meshes/thigh_mirror.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.175
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.35
+      - 0.05
+      - 0.08
+- name: robot_0_RR_thigh_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.266
+    inertia:
+      ixx: 0.000485657
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.00091885
+      iyz: 0.0
+      izz: 0.000485657
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+- name: robot_0_RR_calf
+  inertial:
+    origin:
+      xyz:
+      - 0.005237
+      - 0.0
+      - -0.202805
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.857
+    inertia:
+      ixx: 0.015011003
+      ixy: 5.2e-8
+      ixz: 0.000250042
+      iyy: 0.015159462
+      iyz: 4.61e-7
+      izz: 0.000375749
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://b1_description/meshes/calf.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.175
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.35
+      - 0.04
+      - 0.05
+- name: robot_0_RR_calf_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.266
+    inertia:
+      ixx: 0.000485657
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.00091885
+      iyz: 0.0
+      izz: 0.000485657
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+- name: robot_0_RR_foot
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.05
+    inertia:
+      ixx: 0.000032000000000000005
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000032000000000000005
+      iyz: 0.0
+      izz: 0.000032000000000000005
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.03
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.04
+- name: robot_0_RL_hip
+  inertial:
+    origin:
+      xyz:
+      - 0.020298
+      - 0.009758
+      - 0.000109
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 2.1
+    inertia:
+      ixx: 0.00406608
+      ixy: 0.000288071
+      ixz: 4.371e-6
+      iyy: 0.008775259
+      iyz: 1.811e-6
+      izz: 0.006060348
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 3.141592653589793
+      - 0.0
+    geometry: !Mesh
+      filename: package://b1_description/meshes/hip.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.12675
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.09
+      length: 0.04
+- name: robot_0_RL_hip_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.199
+    inertia:
+      ixx: 0.00039249
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000219397
+      iyz: 0.0
+      izz: 0.000219397
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+- name: robot_0_RL_thigh
+  inertial:
+    origin:
+      xyz:
+      - -0.000235
+      - -0.028704
+      - -0.054169
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 3.934
+    inertia:
+      ixx: 0.044459086
+      ixy: 0.000128738
+      ixz: -0.002343913
+      iyy: 0.046023457
+      iyz: 0.006032996
+      izz: 0.008696078
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://b1_description/meshes/thigh.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.175
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.35
+      - 0.05
+      - 0.08
+- name: robot_0_RL_thigh_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.266
+    inertia:
+      ixx: 0.000485657
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.00091885
+      iyz: 0.0
+      izz: 0.000485657
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+- name: robot_0_RL_calf
+  inertial:
+    origin:
+      xyz:
+      - 0.005237
+      - 0.0
+      - -0.202805
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.857
+    inertia:
+      ixx: 0.015011003
+      ixy: 5.2e-8
+      ixz: 0.000250042
+      iyy: 0.015159462
+      iyz: 4.61e-7
+      izz: 0.000375749
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://b1_description/meshes/calf.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.175
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.35
+      - 0.04
+      - 0.05
+- name: robot_0_RL_calf_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.266
+    inertia:
+      ixx: 0.000485657
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.00091885
+      iyz: 0.0
+      izz: 0.000485657
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.05
+      length: 0.02
+- name: robot_0_RL_foot
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.05
+    inertia:
+      ixx: 0.000032000000000000005
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000032000000000000005
+      iyz: 0.0
+      izz: 0.000032000000000000005
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.03
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.04
+joints:
+- name: connection_joint_robot_0
+  joint_type: Floating
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: combined_robot_world
+  child:
+    link: robot_0_base
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: -3.14
+    upper: 3.14
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_floating_base
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_base
+  child:
+    link: robot_0_trunk
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_imu_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_trunk
+  child:
+    link: robot_0_imu_link
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_FR_hip_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.3455
+    - -0.072
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_trunk
+  child:
+    link: robot_0_FR_hip
+  axis:
+    xyz:
+    - 1.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: -0.75
+    upper: 0.75
+    effort: 91.0035
+    velocity: 19.69
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: robot_0_FR_hip_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.1955
+    - -0.072
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_trunk
+  child:
+    link: robot_0_FR_hip_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_FR_thigh_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - -0.12675
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_FR_hip
+  child:
+    link: robot_0_FR_thigh
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: -1.0
+    upper: 3.5
+    effort: 93.33
+    velocity: 23.32
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: robot_0_FR_thigh_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - -0.00935
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_FR_hip
+  child:
+    link: robot_0_FR_thigh_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_FR_calf_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.35
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_FR_thigh
+  child:
+    link: robot_0_FR_calf
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: -2.6
+    upper: -0.6
+    effort: 140.0
+    velocity: 15.55
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: robot_0_FR_calf_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0519
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_FR_thigh
+  child:
+    link: robot_0_FR_calf_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_FR_foot_fixed
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.35
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_FR_calf
+  child:
+    link: robot_0_FR_foot
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_FL_hip_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.3455
+    - 0.072
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_trunk
+  child:
+    link: robot_0_FL_hip
+  axis:
+    xyz:
+    - 1.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: -0.75
+    upper: 0.75
+    effort: 91.0035
+    velocity: 19.69
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: robot_0_FL_hip_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.1955
+    - 0.072
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_trunk
+  child:
+    link: robot_0_FL_hip_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_FL_thigh_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.12675
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_FL_hip
+  child:
+    link: robot_0_FL_thigh
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: -1.0
+    upper: 3.5
+    effort: 93.33
+    velocity: 23.32
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: robot_0_FL_thigh_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.00935
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_FL_hip
+  child:
+    link: robot_0_FL_thigh_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_FL_calf_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.35
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_FL_thigh
+  child:
+    link: robot_0_FL_calf
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: -2.6
+    upper: -0.6
+    effort: 140.0
+    velocity: 15.55
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: robot_0_FL_calf_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - -0.0519
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_FL_thigh
+  child:
+    link: robot_0_FL_calf_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_FL_foot_fixed
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.35
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_FL_calf
+  child:
+    link: robot_0_FL_foot
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_RR_hip_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - -0.3455
+    - -0.072
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_trunk
+  child:
+    link: robot_0_RR_hip
+  axis:
+    xyz:
+    - 1.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: -0.75
+    upper: 0.75
+    effort: 91.0035
+    velocity: 19.69
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: robot_0_RR_hip_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - -0.1955
+    - -0.072
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_trunk
+  child:
+    link: robot_0_RR_hip_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_RR_thigh_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - -0.12675
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_RR_hip
+  child:
+    link: robot_0_RR_thigh
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: -1.0
+    upper: 3.5
+    effort: 93.33
+    velocity: 23.32
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: robot_0_RR_thigh_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - -0.00935
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_RR_hip
+  child:
+    link: robot_0_RR_thigh_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_RR_calf_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.35
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_RR_thigh
+  child:
+    link: robot_0_RR_calf
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: -2.6
+    upper: -0.6
+    effort: 140.0
+    velocity: 15.55
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: robot_0_RR_calf_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0519
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_RR_thigh
+  child:
+    link: robot_0_RR_calf_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_RR_foot_fixed
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.35
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_RR_calf
+  child:
+    link: robot_0_RR_foot
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_RL_hip_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - -0.3455
+    - 0.072
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_trunk
+  child:
+    link: robot_0_RL_hip
+  axis:
+    xyz:
+    - 1.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: -0.75
+    upper: 0.75
+    effort: 91.0035
+    velocity: 19.69
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: robot_0_RL_hip_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - -0.1955
+    - 0.072
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_trunk
+  child:
+    link: robot_0_RL_hip_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_RL_thigh_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.12675
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_RL_hip
+  child:
+    link: robot_0_RL_thigh
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: -1.0
+    upper: 3.5
+    effort: 93.33
+    velocity: 23.32
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: robot_0_RL_thigh_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.00935
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_RL_hip
+  child:
+    link: robot_0_RL_thigh_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_RL_calf_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.35
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_RL_thigh
+  child:
+    link: robot_0_RL_calf
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: -2.6
+    upper: -0.6
+    effort: 140.0
+    velocity: 15.55
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: robot_0_RL_calf_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - -0.0519
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_RL_thigh
+  child:
+    link: robot_0_RL_calf_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: robot_0_RL_foot_fixed
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.35
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: robot_0_RL_calf
+  child:
+    link: robot_0_RL_foot
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+materials:
+- name: black
+  color:
+    rgba:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+  texture: null
+- name: blue
+  color:
+    rgba:
+    - 0.0
+    - 0.0
+    - 0.8
+    - 1.0
+  texture: null
+- name: green
+  color:
+    rgba:
+    - 0.0
+    - 0.8
+    - 0.0
+    - 1.0
+  texture: null
+- name: grey
+  color:
+    rgba:
+    - 0.2
+    - 0.2
+    - 0.2
+    - 1.0
+  texture: null
+- name: silver
+  color:
+    rgba:
+    - 0.9137254901960784
+    - 0.9137254901960784
+    - 0.8470588235294118
+    - 1.0
+  texture: null
+- name: orange
+  color:
+    rgba:
+    - 1.0
+    - 0.4235294117647059
+    - 0.0392156862745098
+    - 1.0
+  texture: null
+- name: brown
+  color:
+    rgba:
+    - 0.8705882352941177
+    - 0.8117647058823529
+    - 0.7647058823529411
+    - 1.0
+  texture: null
+- name: red
+  color:
+    rgba:
+    - 0.8
+    - 0.0
+    - 0.0
+    - 1.0
+  texture: null
+- name: white
+  color:
+    rgba:
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+  texture: null

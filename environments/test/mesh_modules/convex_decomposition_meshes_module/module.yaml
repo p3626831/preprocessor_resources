@@ -1,0 +1,54 @@
+stl_link_mesh_relative_paths:
+- []
+- - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/0.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/1.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/2.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/3.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/4.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/5.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/6.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/7.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/8.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/9.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/10.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/11.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/12.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/13.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/14.stl
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/stl/untitled/15.stl
+obj_link_mesh_relative_paths:
+- []
+- - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/0.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/1.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/2.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/3.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/4.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/5.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/6.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/7.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/8.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/9.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/10.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/11.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/12.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/13.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/14.obj
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/obj/untitled/15.obj
+glb_link_mesh_relative_paths:
+- []
+- - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/0.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/1.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/2.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/3.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/4.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/5.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/6.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/7.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/8.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/9.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/10.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/11.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/12.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/13.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/14.glb
+  - test/mesh_modules/convex_decomposition_meshes_module/meshes/glb/untitled/15.glb

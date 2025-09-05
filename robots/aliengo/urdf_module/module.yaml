@@ -1,0 +1,2591 @@
+name: aliengo
+links:
+- name: base
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.0
+    inertia:
+      ixx: 0.0
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.0
+      iyz: 0.0
+      izz: 0.0
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.001
+      - 0.001
+      - 0.001
+    material: null
+  collision: []
+- name: trunk
+  inertial:
+    origin:
+      xyz:
+      - 0.008811
+      - 0.003839
+      - 0.000273
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 11.644
+    inertia:
+      ixx: 0.051944892
+      ixy: 0.001703617
+      ixz: 0.000235941
+      iyy: 0.24693924
+      iyz: 0.000119783
+      izz: 0.270948307
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://aliengo_description/meshes/trunk.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.647
+      - 0.15
+      - 0.112
+- name: imu_link
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.001
+    inertia:
+      ixx: 0.0001
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 1e-6
+      iyz: 0.0
+      izz: 0.0001
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.001
+      - 0.001
+      - 0.001
+    material:
+      name: red
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.001
+      - 0.001
+      - 0.001
+- name: FR_hip
+  inertial:
+    origin:
+      xyz:
+      - -0.022191
+      - -0.015144
+      - -0.000015
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 1.993
+    inertia:
+      ixx: 0.002446735
+      ixy: 0.00059805
+      ixz: 1.945e-6
+      iyy: 0.003925876
+      iyz: -1.284e-6
+      izz: 0.004148145
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 3.141592653589793
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://aliengo_description/meshes/hip.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - -0.083
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.046
+      length: 0.0418
+- name: FR_hip_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.146
+    inertia:
+      ixx: 0.000138702
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000083352
+      iyz: 0.0
+      izz: 0.000083352
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+- name: FR_thigh
+  inertial:
+    origin:
+      xyz:
+      - -0.005607
+      - 0.003877
+      - -0.048199
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.639
+    inertia:
+      ixx: 0.004173855
+      ixy: -0.000010284
+      ixz: -0.000318874
+      iyy: 0.004343802
+      iyz: -0.000109233
+      izz: 0.000340136
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://aliengo_description/meshes/thigh_mirror.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.125
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.25
+      - 0.0374
+      - 0.043
+- name: FR_thigh_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.146
+    inertia:
+      ixx: 0.000083352
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000138702
+      iyz: 0.0
+      izz: 0.000083352
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+- name: FR_calf
+  inertial:
+    origin:
+      xyz:
+      - 0.002781
+      - 0.000063
+      - -0.142518
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.207
+    inertia:
+      ixx: 0.002129279
+      ixy: 3.9e-8
+      ixz: 5.757e-6
+      iyy: 0.002141463
+      iyz: -5.16e-7
+      izz: 0.000037583
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://aliengo_description/meshes/calf.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.125
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.25
+      - 0.0208
+      - 0.016
+- name: FR_calf_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.132
+    inertia:
+      ixx: 0.000145463
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000133031
+      iyz: 0.0
+      izz: 0.000145463
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+- name: FR_foot
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.06
+    inertia:
+      ixx: 0.000016853999999999998
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000016853999999999998
+      iyz: 0.0
+      izz: 0.000016853999999999998
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.0165
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.0265
+- name: FL_hip
+  inertial:
+    origin:
+      xyz:
+      - -0.022191
+      - 0.015144
+      - -0.000015
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 1.993
+    inertia:
+      ixx: 0.002446735
+      ixy: -0.00059805
+      ixz: 1.945e-6
+      iyy: 0.003925876
+      iyz: 1.284e-6
+      izz: 0.004148145
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://aliengo_description/meshes/hip.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.083
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.046
+      length: 0.0418
+- name: FL_hip_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.146
+    inertia:
+      ixx: 0.000138702
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000083352
+      iyz: 0.0
+      izz: 0.000083352
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+- name: FL_thigh
+  inertial:
+    origin:
+      xyz:
+      - -0.005607
+      - -0.003877
+      - -0.048199
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.639
+    inertia:
+      ixx: 0.004173855
+      ixy: 0.000010284
+      ixz: -0.000318874
+      iyy: 0.004343802
+      iyz: 0.000109233
+      izz: 0.000340136
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://aliengo_description/meshes/thigh.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.125
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.25
+      - 0.0374
+      - 0.043
+- name: FL_thigh_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.146
+    inertia:
+      ixx: 0.000083352
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000138702
+      iyz: 0.0
+      izz: 0.000083352
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+- name: FL_calf
+  inertial:
+    origin:
+      xyz:
+      - 0.002781
+      - 0.000063
+      - -0.142518
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.207
+    inertia:
+      ixx: 0.002129279
+      ixy: 3.9e-8
+      ixz: 5.757e-6
+      iyy: 0.002141463
+      iyz: -5.16e-7
+      izz: 0.000037583
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://aliengo_description/meshes/calf.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.125
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.25
+      - 0.0208
+      - 0.016
+- name: FL_calf_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.132
+    inertia:
+      ixx: 0.000145463
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000133031
+      iyz: 0.0
+      izz: 0.000145463
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+- name: FL_foot
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.06
+    inertia:
+      ixx: 0.000016853999999999998
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000016853999999999998
+      iyz: 0.0
+      izz: 0.000016853999999999998
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.0165
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.0265
+- name: RR_hip
+  inertial:
+    origin:
+      xyz:
+      - 0.022191
+      - -0.015144
+      - -0.000015
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 1.993
+    inertia:
+      ixx: 0.002446735
+      ixy: -0.00059805
+      ixz: -1.945e-6
+      iyy: 0.003925876
+      iyz: -1.284e-6
+      izz: 0.004148145
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 3.141592653589793
+      - 3.141592653589793
+      - 0.0
+    geometry: !Mesh
+      filename: package://aliengo_description/meshes/hip.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - -0.083
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.046
+      length: 0.0418
+- name: RR_hip_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.146
+    inertia:
+      ixx: 0.000138702
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000083352
+      iyz: 0.0
+      izz: 0.000083352
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+- name: RR_thigh
+  inertial:
+    origin:
+      xyz:
+      - -0.005607
+      - 0.003877
+      - -0.048199
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.639
+    inertia:
+      ixx: 0.004173855
+      ixy: -0.000010284
+      ixz: -0.000318874
+      iyy: 0.004343802
+      iyz: -0.000109233
+      izz: 0.000340136
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://aliengo_description/meshes/thigh_mirror.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.125
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.25
+      - 0.0374
+      - 0.043
+- name: RR_thigh_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.146
+    inertia:
+      ixx: 0.000083352
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000138702
+      iyz: 0.0
+      izz: 0.000083352
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+- name: RR_calf
+  inertial:
+    origin:
+      xyz:
+      - 0.002781
+      - 0.000063
+      - -0.142518
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.207
+    inertia:
+      ixx: 0.002129279
+      ixy: 3.9e-8
+      ixz: 5.757e-6
+      iyy: 0.002141463
+      iyz: -5.16e-7
+      izz: 0.000037583
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://aliengo_description/meshes/calf.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.125
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.25
+      - 0.0208
+      - 0.016
+- name: RR_calf_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.132
+    inertia:
+      ixx: 0.000145463
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000133031
+      iyz: 0.0
+      izz: 0.000145463
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+- name: RR_foot
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.06
+    inertia:
+      ixx: 0.000016853999999999998
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000016853999999999998
+      iyz: 0.0
+      izz: 0.000016853999999999998
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.0165
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.0265
+- name: RL_hip
+  inertial:
+    origin:
+      xyz:
+      - 0.022191
+      - 0.015144
+      - -0.000015
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 1.993
+    inertia:
+      ixx: 0.002446735
+      ixy: 0.00059805
+      ixz: -1.945e-6
+      iyy: 0.003925876
+      iyz: 1.284e-6
+      izz: 0.004148145
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 3.141592653589793
+      - 0.0
+    geometry: !Mesh
+      filename: package://aliengo_description/meshes/hip.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.083
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.046
+      length: 0.0418
+- name: RL_hip_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.146
+    inertia:
+      ixx: 0.000138702
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000083352
+      iyz: 0.0
+      izz: 0.000083352
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+- name: RL_thigh
+  inertial:
+    origin:
+      xyz:
+      - -0.005607
+      - -0.003877
+      - -0.048199
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.639
+    inertia:
+      ixx: 0.004173855
+      ixy: 0.000010284
+      ixz: -0.000318874
+      iyy: 0.004343802
+      iyz: 0.000109233
+      izz: 0.000340136
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://aliengo_description/meshes/thigh.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.125
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.25
+      - 0.0374
+      - 0.043
+- name: RL_thigh_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.146
+    inertia:
+      ixx: 0.000083352
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000138702
+      iyz: 0.0
+      izz: 0.000083352
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+- name: RL_calf
+  inertial:
+    origin:
+      xyz:
+      - 0.002781
+      - 0.000063
+      - -0.142518
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.207
+    inertia:
+      ixx: 0.002129279
+      ixy: 3.9e-8
+      ixz: 5.757e-6
+      iyy: 0.002141463
+      iyz: -5.16e-7
+      izz: 0.000037583
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Mesh
+      filename: package://aliengo_description/meshes/calf.dae
+      scale:
+      - 1.0
+      - 1.0
+      - 1.0
+    material:
+      name: orange
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - -0.125
+      rpy:
+      - 0.0
+      - 1.5707963267948966
+      - 0.0
+    geometry: !Box
+      size:
+      - 0.25
+      - 0.0208
+      - 0.016
+- name: RL_calf_rotor
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.132
+    inertia:
+      ixx: 0.000145463
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000133031
+      iyz: 0.0
+      izz: 0.000145463
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 1.5707963267948966
+      - 0.0
+      - 0.0
+    geometry: !Cylinder
+      radius: 0.035
+      length: 0.02
+- name: RL_foot
+  inertial:
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    mass:
+      value: 0.06
+    inertia:
+      ixx: 0.000016853999999999998
+      ixy: 0.0
+      ixz: 0.0
+      iyy: 0.000016853999999999998
+      iyz: 0.0
+      izz: 0.000016853999999999998
+  visual:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.0165
+    material:
+      name: green
+      color: null
+      texture: null
+  collision:
+  - name: null
+    origin:
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+      rpy:
+      - 0.0
+      - 0.0
+      - 0.0
+    geometry: !Sphere
+      radius: 0.0265
+joints:
+- name: floating_base
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: base
+  child:
+    link: trunk
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: imu_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: trunk
+  child:
+    link: imu_link
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: FR_hip_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.2407
+    - -0.051
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: trunk
+  child:
+    link: FR_hip
+  axis:
+    xyz:
+    - 1.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: -1.2217304763960306
+    upper: 1.2217304763960306
+    effort: 35.278
+    velocity: 20.0
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: FR_hip_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.139985
+    - -0.051
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: trunk
+  child:
+    link: FR_hip_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: FR_thigh_joint
+  joint_type: Continuous
+  origin:
+    xyz:
+    - 0.0
+    - -0.0868
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: FR_hip
+  child:
+    link: FR_thigh
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 35.278
+    velocity: 20.0
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: FR_thigh_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - -0.0298
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: FR_hip
+  child:
+    link: FR_thigh_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: FR_calf_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.25
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: FR_thigh
+  child:
+    link: FR_calf
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: -2.775073510670984
+    upper: -0.6457718232379019
+    effort: 44.4
+    velocity: 15.89
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: FR_calf_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0997
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: FR_thigh
+  child:
+    link: FR_calf_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: FR_foot_fixed
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.25
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: FR_calf
+  child:
+    link: FR_foot
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: FL_hip_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.2407
+    - 0.051
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: trunk
+  child:
+    link: FL_hip
+  axis:
+    xyz:
+    - 1.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: -1.2217304763960306
+    upper: 1.2217304763960306
+    effort: 35.278
+    velocity: 20.0
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: FL_hip_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.139985
+    - 0.051
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: trunk
+  child:
+    link: FL_hip_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: FL_thigh_joint
+  joint_type: Continuous
+  origin:
+    xyz:
+    - 0.0
+    - 0.0868
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: FL_hip
+  child:
+    link: FL_thigh
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 35.278
+    velocity: 20.0
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: FL_thigh_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0298
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: FL_hip
+  child:
+    link: FL_thigh_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: FL_calf_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.25
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: FL_thigh
+  child:
+    link: FL_calf
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: -2.775073510670984
+    upper: -0.6457718232379019
+    effort: 44.4
+    velocity: 15.89
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: FL_calf_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - -0.0997
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: FL_thigh
+  child:
+    link: FL_calf_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: FL_foot_fixed
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.25
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: FL_calf
+  child:
+    link: FL_foot
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: RR_hip_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - -0.2407
+    - -0.051
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: trunk
+  child:
+    link: RR_hip
+  axis:
+    xyz:
+    - 1.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: -1.2217304763960306
+    upper: 1.2217304763960306
+    effort: 35.278
+    velocity: 20.0
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: RR_hip_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - -0.139985
+    - -0.051
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: trunk
+  child:
+    link: RR_hip_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: RR_thigh_joint
+  joint_type: Continuous
+  origin:
+    xyz:
+    - 0.0
+    - -0.0868
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: RR_hip
+  child:
+    link: RR_thigh
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 35.278
+    velocity: 20.0
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: RR_thigh_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - -0.0298
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: RR_hip
+  child:
+    link: RR_thigh_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: RR_calf_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.25
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: RR_thigh
+  child:
+    link: RR_calf
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: -2.775073510670984
+    upper: -0.6457718232379019
+    effort: 44.4
+    velocity: 15.89
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: RR_calf_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0997
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: RR_thigh
+  child:
+    link: RR_calf_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: RR_foot_fixed
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.25
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: RR_calf
+  child:
+    link: RR_foot
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: RL_hip_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - -0.2407
+    - 0.051
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: trunk
+  child:
+    link: RL_hip
+  axis:
+    xyz:
+    - 1.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: -1.2217304763960306
+    upper: 1.2217304763960306
+    effort: 35.278
+    velocity: 20.0
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: RL_hip_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - -0.139985
+    - 0.051
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: trunk
+  child:
+    link: RL_hip_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: RL_thigh_joint
+  joint_type: Continuous
+  origin:
+    xyz:
+    - 0.0
+    - 0.0868
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: RL_hip
+  child:
+    link: RL_thigh
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 35.278
+    velocity: 20.0
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: RL_thigh_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0298
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: RL_hip
+  child:
+    link: RL_thigh_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: RL_calf_joint
+  joint_type: Revolute
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.25
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: RL_thigh
+  child:
+    link: RL_calf
+  axis:
+    xyz:
+    - 0.0
+    - 1.0
+    - 0.0
+  limit:
+    lower: -2.775073510670984
+    upper: -0.6457718232379019
+    effort: 44.4
+    velocity: 15.89
+  dynamics:
+    damping: 0.0
+    friction: 0.0
+  mimic: null
+  safety_controller: null
+- name: RL_calf_rotor_joint
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - -0.0997
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: RL_thigh
+  child:
+    link: RL_calf_rotor
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+- name: RL_foot_fixed
+  joint_type: Fixed
+  origin:
+    xyz:
+    - 0.0
+    - 0.0
+    - -0.25
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+  parent:
+    link: RL_calf
+  child:
+    link: RL_foot
+  axis:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+  limit:
+    lower: 0.0
+    upper: 0.0
+    effort: 0.0
+    velocity: 0.0
+  dynamics: null
+  mimic: null
+  safety_controller: null
+materials:
+- name: black
+  color:
+    rgba:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+  texture: null
+- name: blue
+  color:
+    rgba:
+    - 0.0
+    - 0.0
+    - 0.8
+    - 1.0
+  texture: null
+- name: green
+  color:
+    rgba:
+    - 0.0
+    - 0.8
+    - 0.0
+    - 1.0
+  texture: null
+- name: grey
+  color:
+    rgba:
+    - 0.2
+    - 0.2
+    - 0.2
+    - 1.0
+  texture: null
+- name: silver
+  color:
+    rgba:
+    - 0.9137254901960784
+    - 0.9137254901960784
+    - 0.8470588235294118
+    - 1.0
+  texture: null
+- name: orange
+  color:
+    rgba:
+    - 1.0
+    - 0.4235294117647059
+    - 0.0392156862745098
+    - 1.0
+  texture: null
+- name: brown
+  color:
+    rgba:
+    - 0.8705882352941177
+    - 0.8117647058823529
+    - 0.7647058823529411
+    - 1.0
+  texture: null
+- name: red
+  color:
+    rgba:
+    - 0.8
+    - 0.0
+    - 0.0
+    - 1.0
+  texture: null
+- name: white
+  color:
+    rgba:
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+  texture: null

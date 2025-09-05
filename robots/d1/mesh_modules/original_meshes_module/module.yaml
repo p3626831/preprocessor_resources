@@ -1,0 +1,10 @@
+link_mesh_relative_paths:
+- - d1/mesh_modules/original_meshes_module/meshes/base_link.STL
+- - d1/mesh_modules/original_meshes_module/meshes/Link1.STL
+- - d1/mesh_modules/original_meshes_module/meshes/Link2.STL
+- - d1/mesh_modules/original_meshes_module/meshes/Link3.STL
+- - d1/mesh_modules/original_meshes_module/meshes/Link4.STL
+- - d1/mesh_modules/original_meshes_module/meshes/Link5.STL
+- - d1/mesh_modules/original_meshes_module/meshes/Link6.STL
+- - d1/mesh_modules/original_meshes_module/meshes/Link7_1.STL
+- - d1/mesh_modules/original_meshes_module/meshes/Link7_2.STL

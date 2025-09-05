@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In Browser Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lil-gui@0.19.1/dist/lil-gui.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.3.0/math.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/quaternion@1.5.1/quaternion.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/numeric@1.2.6/numeric-1.2.6.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/stats.js@0.17.0/build/stats.min.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+              "three_engine/": "https://cdn.jsdelivr.net/gh/Apollo-Lab-Yale/apollo-three-engine@main/js/",
+              "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+              "three/": "https://unpkg.com/three@0.160.0/"
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="image-container">
+    <button id="return-button">Return</button>
+</div>
+<div id="menu-container">
+    <h1>Select a Robot</h1>
+    <label for="robot-select">Choose a robot:</label>
+    <select id="robot-select">
+        <!-- Options will be populated dynamically -->
+    </select>
+    <button id="load-robot">Load Robot and Environment</button>
+    <div id="menu-instructions">
+        Instructions:
+        <ul>
+            <li>Select a robot from the dropdown menu.</li>
+            <li>Click the "Load Robot" button to visualize the selected robot.</li>
+            <li>Use the provided controls to interact with the robot and visualize various information.</li>
+        </ul>
+    </div>
+    <h1>Select an Environment</h1>
+    <label for="environment-select">Choose an environment:</label>
+    <select id="environment-select">
+        <!-- Options will be populated dynamically -->
+    </select>
+    <div id="environment-menu-instructions">
+        Instructions:
+        <ul>
+            <li>Select an environment from the dropdown menu.</li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    // adapted from:
+    // https://stackoverflow.com/questions/39048654/how-to-enable-directory-indexing-on-github-pages
+    // Fetch the list of robots from the GitHub API and populate the dropdown options
+    document.addEventListener('DOMContentLoaded', async () => {
+        const user = 'Apollo-Lab-Yale'; // Replace with your GitHub username
+        const repo = 'apollo-resources'; // Replace with your repository name
+        const robot_path = 'robots'; // Path to the robots directory
+        const environment_path = 'environments'; // Path to the environments directory
+
+        const robot_apiUrl = `https://api.github.com/repos/${user}/${repo}/contents/${robot_path}`;
+        const environment_apiUrl = `https://api.github.com/repos/${user}/${repo}/contents/${environment_path}`;
+
+        try {
+            const response = await fetch(robot_apiUrl);
+            const data = await response.json();
+            const select = document.getElementById('robot-select');
+
+            data.forEach(file => {
+                if (file.type === 'dir') {
+                    const option = document.createElement('option');
+                    option.value = file.name.toLowerCase().replace(/\s+/g, '-');
+                    option.textContent = file.name;
+                    select.appendChild(option);
+                }
+            });
+        } catch (error) {
+            console.error('Error fetching robot data:', error);
+        }
+
+        try {
+            const response = await fetch(environment_apiUrl);
+            const data = await response.json();
+            const select = document.getElementById('environment-select');
+
+            const default_option = document.createElement('option');
+            default_option.value = 'empty environment';
+            default_option.textContent = 'empty environment';
+            select.appendChild(default_option);
+
+            data.forEach(file => {
+                if (file.type === 'dir') {
+                    const option = document.createElement('option');
+                    option.value = file.name.toLowerCase().replace(/\s+/g, '-');
+                    option.textContent = file.name;
+                    select.appendChild(option);
+                }
+            });
+        } catch (error) {
+            console.error('Error fetching environment data:', error);
+        }
+
+        // Return button functionality
+        document.getElementById('return-button').addEventListener('click', () => {
+            location.reload();
+        });
+    });
+</script>
+
+<div id="visualization-container">
+    <!-- Visualization content will go here -->
+</div>
+<script type="module">
+    import {ThreeEngine} from 'three_engine/utils/utils_three.js';
+    import {RobotFKSlidersVisualizer} from 'three_engine/utils/utils_kinematics.js';
+    import {RobotFromPreprocessor} from 'three_engine/utils/utils_robot.js';
+    // import {visualize_robot} from 'three_engine/utils/utils_robots_visualization.js';
+
+    let engine = ThreeEngine.new_default_3d();
+    const robots_dir = './robots';
+    const environments_dir = './environments';
+
+    async function visualize_robot_and_env(engine, robots_dir, robot_name, environments_dir, environment_name) {
+        const robot_dir = `${robots_dir}/${robot_name}`;
+        const [chainConfig, urdfConfig, meshConfig_stl, meshConfig, meshConfig_hull, meshConfig_convex_decomposition, shapesConfig] = await Promise.all([
+            fetch(`${robot_dir}/chain_module/module.json`).then(response => response.json()),
+            fetch(`${robot_dir}/urdf_module/module.json`).then(response => response.json()),
+            fetch(`${robot_dir}/mesh_modules/plain_meshes_module/module.json`).then(response => response.json()),
+            fetch(`${robot_dir}/mesh_modules/original_meshes_module/module.json`).then(response => response.json()),
+            fetch(`${robot_dir}/mesh_modules/convex_hull_meshes_module/module.json`).then(response => response.json()),
+            fetch(`${robot_dir}/mesh_modules/convex_decomposition_meshes_module/module.json`).then(response => response.json()),
+            fetch(`${robot_dir}/link_shapes_modules/link_shapes_approximations_module/module.json`).then(response => response.json()),
+        ]);
+
+        // Load robot from preprocessed files
+        let robot = new RobotFromPreprocessor(
+            chainConfig,
+            urdfConfig,
+            meshConfig,
+            meshConfig_stl,
+            'stl',
+            meshConfig_hull,
+            meshConfig_convex_decomposition,
+            shapesConfig,
+            `apollo-resources/${robots_dir}`// robots_dir
+        );
+
+        robot.spawn_robot(engine);
+        let robot_visualizer = new RobotFKSlidersVisualizer(robot);
+        robot_visualizer.gui.close();
+        robot_visualizer.gui.title('Robot Chain');
+
+
+        let environment_visualizer;
+
+        if(environment_name != 'empty environment') {
+            const environment_dir = `${environments_dir}/${environment_name}`;
+            const [env_chainConfig, env_urdfConfig, env_meshConfig_stl, env_meshConfig, env_meshConfig_hull, env_meshConfig_convex_decomposition, env_shapesConfig] = await Promise.all([
+                fetch(`${environment_dir}/chain_module/module.json`).then(response => response.json()),
+                fetch(`${environment_dir}/urdf_module/module.json`).then(response => response.json()),
+                fetch(`${environment_dir}/mesh_modules/plain_meshes_module/module.json`).then(response => response.json()),
+                fetch(`${environment_dir}/mesh_modules/original_meshes_module/module.json`).then(response => response.json()),
+                fetch(`${environment_dir}/mesh_modules/convex_hull_meshes_module/module.json`).then(response => response.json()),
+                fetch(`${environment_dir}/mesh_modules/convex_decomposition_meshes_module/module.json`).then(response => response.json()),
+                fetch(`${environment_dir}/link_shapes_modules/link_shapes_approximations_module/module.json`).then(response => response.json()),
+            ]);
+
+            let environment = new RobotFromPreprocessor(
+                env_chainConfig,
+                env_urdfConfig,
+                env_meshConfig,
+                env_meshConfig_stl,
+                'stl',
+                env_meshConfig_hull,
+                env_meshConfig_convex_decomposition,
+                env_shapesConfig,
+                `apollo-resources/${environments_dir}`// robots_dir
+            );
+
+            environment.spawn_robot(engine);
+            environment_visualizer = new RobotFKSlidersVisualizer(environment);
+            environment_visualizer.gui.close()
+            environment_visualizer.gui.title('Environment Chain');
+
+            // Access the DOM element of the GUI
+            const guiContainer = environment_visualizer.gui.domElement;
+            //guiContainer.style.position = 'absolute';
+            guiContainer.style.left = '260px';
+        }
+
+        engine.animation_loop(function() {
+            robot_visualizer.three_loop_function(engine);
+            if(environment_name != 'empty environment') { environment_visualizer.three_loop_function(engine); }
+        });
+    }
+
+    document.getElementById('load-robot').addEventListener('click', () => {
+        const robot_name = document.getElementById('robot-select').value;
+        const environment_name = document.getElementById('environment-select').value;
+        document.getElementById('menu-container').style.display = 'none';
+        document.getElementById('visualization-container').style.display = 'block';
+        visualize_robot_and_env(engine, robots_dir, robot_name, environments_dir, environment_name);
+    });
+</script>
+</body>
+</html>

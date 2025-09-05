@@ -1,0 +1,27 @@
+stl_link_mesh_relative_paths:
+- null
+- z1/mesh_modules/plain_meshes_module/meshes/stl/z1_Link00.stl
+- z1/mesh_modules/plain_meshes_module/meshes/stl/z1_Link01.stl
+- z1/mesh_modules/plain_meshes_module/meshes/stl/z1_Link02.stl
+- z1/mesh_modules/plain_meshes_module/meshes/stl/z1_Link03.stl
+- z1/mesh_modules/plain_meshes_module/meshes/stl/z1_Link04.stl
+- z1/mesh_modules/plain_meshes_module/meshes/stl/z1_Link05.stl
+- z1/mesh_modules/plain_meshes_module/meshes/stl/z1_Link06.stl
+obj_link_mesh_relative_paths:
+- null
+- z1/mesh_modules/plain_meshes_module/meshes/obj/z1_Link00.obj
+- z1/mesh_modules/plain_meshes_module/meshes/obj/z1_Link01.obj
+- z1/mesh_modules/plain_meshes_module/meshes/obj/z1_Link02.obj
+- z1/mesh_modules/plain_meshes_module/meshes/obj/z1_Link03.obj
+- z1/mesh_modules/plain_meshes_module/meshes/obj/z1_Link04.obj
+- z1/mesh_modules/plain_meshes_module/meshes/obj/z1_Link05.obj
+- z1/mesh_modules/plain_meshes_module/meshes/obj/z1_Link06.obj
+glb_link_mesh_relative_paths:
+- null
+- z1/mesh_modules/plain_meshes_module/meshes/glb/z1_Link00.glb
+- z1/mesh_modules/plain_meshes_module/meshes/glb/z1_Link01.glb
+- z1/mesh_modules/plain_meshes_module/meshes/glb/z1_Link02.glb
+- z1/mesh_modules/plain_meshes_module/meshes/glb/z1_Link03.glb
+- z1/mesh_modules/plain_meshes_module/meshes/glb/z1_Link04.glb
+- z1/mesh_modules/plain_meshes_module/meshes/glb/z1_Link05.glb
+- z1/mesh_modules/plain_meshes_module/meshes/glb/z1_Link06.glb

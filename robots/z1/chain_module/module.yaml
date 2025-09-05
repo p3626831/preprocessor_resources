@@ -1,0 +1,116 @@
+links_in_chain:
+- name: world
+  link_idx: 0
+  parent_joint_idx: null
+  parent_link_idx: null
+  children_joint_idxs:
+  - 0
+  children_link_idxs:
+  - 1
+- name: link00
+  link_idx: 1
+  parent_joint_idx: 0
+  parent_link_idx: 0
+  children_joint_idxs:
+  - 1
+  children_link_idxs:
+  - 2
+- name: link01
+  link_idx: 2
+  parent_joint_idx: 1
+  parent_link_idx: 1
+  children_joint_idxs:
+  - 2
+  children_link_idxs:
+  - 3
+- name: link02
+  link_idx: 3
+  parent_joint_idx: 2
+  parent_link_idx: 2
+  children_joint_idxs:
+  - 3
+  children_link_idxs:
+  - 4
+- name: link03
+  link_idx: 4
+  parent_joint_idx: 3
+  parent_link_idx: 3
+  children_joint_idxs:
+  - 4
+  children_link_idxs:
+  - 5
+- name: link04
+  link_idx: 5
+  parent_joint_idx: 4
+  parent_link_idx: 4
+  children_joint_idxs:
+  - 5
+  children_link_idxs:
+  - 6
+- name: link05
+  link_idx: 6
+  parent_joint_idx: 5
+  parent_link_idx: 5
+  children_joint_idxs:
+  - 6
+  children_link_idxs:
+  - 7
+- name: link06
+  link_idx: 7
+  parent_joint_idx: 6
+  parent_link_idx: 6
+  children_joint_idxs: []
+  children_link_idxs: []
+joints_in_chain:
+- joint_name: base_static_joint
+  joint_idx: 0
+  parent_link_name: world
+  parent_link_idx: 0
+  child_link_name: link00
+  child_link_idx: 1
+- joint_name: joint1
+  joint_idx: 1
+  parent_link_name: link00
+  parent_link_idx: 1
+  child_link_name: link01
+  child_link_idx: 2
+- joint_name: joint2
+  joint_idx: 2
+  parent_link_name: link01
+  parent_link_idx: 2
+  child_link_name: link02
+  child_link_idx: 3
+- joint_name: joint3
+  joint_idx: 3
+  parent_link_name: link02
+  parent_link_idx: 3
+  child_link_name: link03
+  child_link_idx: 4
+- joint_name: joint4
+  joint_idx: 4
+  parent_link_name: link03
+  parent_link_idx: 4
+  child_link_name: link04
+  child_link_idx: 5
+- joint_name: joint5
+  joint_idx: 5
+  parent_link_name: link04
+  parent_link_idx: 5
+  child_link_name: link05
+  child_link_idx: 6
+- joint_name: joint6
+  joint_idx: 6
+  parent_link_name: link05
+  parent_link_idx: 6
+  child_link_name: link06
+  child_link_idx: 7
+kinematic_hierarchy:
+- - 0
+- - 1
+- - 2
+- - 3
+- - 4
+- - 5
+- - 6
+- - 7
+root_idx: 0

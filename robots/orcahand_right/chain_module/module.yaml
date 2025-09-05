@@ -1,0 +1,701 @@
+links_in_chain:
+- name: world
+  link_idx: 0
+  parent_joint_idx: null
+  parent_link_idx: null
+  children_joint_idxs:
+  - 2
+  children_link_idxs:
+  - 4
+- name: right_tower
+  link_idx: 1
+  parent_joint_idx: 3
+  parent_link_idx: 4
+  children_joint_idxs:
+  - 0
+  - 1
+  - 5
+  children_link_idxs:
+  - 2
+  - 3
+  - 7
+- name: right_tower1
+  link_idx: 2
+  parent_joint_idx: 0
+  parent_link_idx: 1
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: right_tower2
+  link_idx: 3
+  parent_joint_idx: 1
+  parent_link_idx: 1
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: world2right_tower_fixed_jointbody
+  link_idx: 4
+  parent_joint_idx: 2
+  parent_link_idx: 0
+  children_joint_idxs:
+  - 3
+  children_link_idxs:
+  - 1
+- name: right_palm
+  link_idx: 5
+  parent_joint_idx: 6
+  parent_link_idx: 7
+  children_joint_idxs:
+  - 4
+  - 7
+  - 18
+  - 25
+  - 32
+  - 39
+  children_link_idxs:
+  - 6
+  - 9
+  - 20
+  - 27
+  - 34
+  - 41
+- name: right_palm2
+  link_idx: 6
+  parent_joint_idx: 4
+  parent_link_idx: 5
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: right_wrist_jointbody
+  link_idx: 7
+  parent_joint_idx: 5
+  parent_link_idx: 1
+  children_joint_idxs:
+  - 6
+  children_link_idxs:
+  - 5
+- name: right_thumb_mp
+  link_idx: 8
+  parent_joint_idx: 8
+  parent_link_idx: 9
+  children_joint_idxs:
+  - 9
+  children_link_idxs:
+  - 11
+- name: right_thumb_mcp_jointbody
+  link_idx: 9
+  parent_joint_idx: 7
+  parent_link_idx: 5
+  children_joint_idxs:
+  - 8
+  children_link_idxs:
+  - 8
+- name: right_thumb_pp
+  link_idx: 10
+  parent_joint_idx: 10
+  parent_link_idx: 11
+  children_joint_idxs:
+  - 12
+  children_link_idxs:
+  - 14
+- name: right_thumb_abd_jointbody
+  link_idx: 11
+  parent_joint_idx: 9
+  parent_link_idx: 8
+  children_joint_idxs:
+  - 10
+  children_link_idxs:
+  - 10
+- name: right_thumb_ip
+  link_idx: 12
+  parent_joint_idx: 13
+  parent_link_idx: 14
+  children_joint_idxs:
+  - 11
+  - 15
+  children_link_idxs:
+  - 13
+  - 17
+- name: right_thumb_ip2
+  link_idx: 13
+  parent_joint_idx: 11
+  parent_link_idx: 12
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: right_thumb_pip_jointbody
+  link_idx: 14
+  parent_joint_idx: 12
+  parent_link_idx: 10
+  children_joint_idxs:
+  - 13
+  children_link_idxs:
+  - 12
+- name: right_thumb_dp
+  link_idx: 15
+  parent_joint_idx: 16
+  parent_link_idx: 17
+  children_joint_idxs:
+  - 14
+  - 17
+  children_link_idxs:
+  - 16
+  - 18
+- name: right_thumb_dp2
+  link_idx: 16
+  parent_joint_idx: 14
+  parent_link_idx: 15
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: right_thumb_dip_jointbody
+  link_idx: 17
+  parent_joint_idx: 15
+  parent_link_idx: 12
+  children_joint_idxs:
+  - 16
+  children_link_idxs:
+  - 15
+- name: right_thumb_fingertip
+  link_idx: 18
+  parent_joint_idx: 17
+  parent_link_idx: 15
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: right_index_mp
+  link_idx: 19
+  parent_joint_idx: 19
+  parent_link_idx: 20
+  children_joint_idxs:
+  - 20
+  children_link_idxs:
+  - 22
+- name: right_index_abd_jointbody
+  link_idx: 20
+  parent_joint_idx: 18
+  parent_link_idx: 5
+  children_joint_idxs:
+  - 19
+  children_link_idxs:
+  - 19
+- name: right_index_pp
+  link_idx: 21
+  parent_joint_idx: 21
+  parent_link_idx: 22
+  children_joint_idxs:
+  - 22
+  children_link_idxs:
+  - 24
+- name: right_index_mcp_jointbody
+  link_idx: 22
+  parent_joint_idx: 20
+  parent_link_idx: 19
+  children_joint_idxs:
+  - 21
+  children_link_idxs:
+  - 21
+- name: right_index_ip
+  link_idx: 23
+  parent_joint_idx: 23
+  parent_link_idx: 24
+  children_joint_idxs:
+  - 24
+  children_link_idxs:
+  - 25
+- name: right_index_pip_jointbody
+  link_idx: 24
+  parent_joint_idx: 22
+  parent_link_idx: 21
+  children_joint_idxs:
+  - 23
+  children_link_idxs:
+  - 23
+- name: right_index_fingertip
+  link_idx: 25
+  parent_joint_idx: 24
+  parent_link_idx: 23
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: right_middle_mp
+  link_idx: 26
+  parent_joint_idx: 26
+  parent_link_idx: 27
+  children_joint_idxs:
+  - 27
+  children_link_idxs:
+  - 29
+- name: right_middle_abd_jointbody
+  link_idx: 27
+  parent_joint_idx: 25
+  parent_link_idx: 5
+  children_joint_idxs:
+  - 26
+  children_link_idxs:
+  - 26
+- name: right_middle_pp
+  link_idx: 28
+  parent_joint_idx: 28
+  parent_link_idx: 29
+  children_joint_idxs:
+  - 29
+  children_link_idxs:
+  - 31
+- name: right_middle_mcp_jointbody
+  link_idx: 29
+  parent_joint_idx: 27
+  parent_link_idx: 26
+  children_joint_idxs:
+  - 28
+  children_link_idxs:
+  - 28
+- name: right_middle_ip
+  link_idx: 30
+  parent_joint_idx: 30
+  parent_link_idx: 31
+  children_joint_idxs:
+  - 31
+  children_link_idxs:
+  - 32
+- name: right_middle_pip_jointbody
+  link_idx: 31
+  parent_joint_idx: 29
+  parent_link_idx: 28
+  children_joint_idxs:
+  - 30
+  children_link_idxs:
+  - 30
+- name: right_middle_fingertip
+  link_idx: 32
+  parent_joint_idx: 31
+  parent_link_idx: 30
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: right_ring_mp
+  link_idx: 33
+  parent_joint_idx: 33
+  parent_link_idx: 34
+  children_joint_idxs:
+  - 34
+  children_link_idxs:
+  - 36
+- name: right_ring_abd_jointbody
+  link_idx: 34
+  parent_joint_idx: 32
+  parent_link_idx: 5
+  children_joint_idxs:
+  - 33
+  children_link_idxs:
+  - 33
+- name: right_ring_pp
+  link_idx: 35
+  parent_joint_idx: 35
+  parent_link_idx: 36
+  children_joint_idxs:
+  - 36
+  children_link_idxs:
+  - 38
+- name: right_ring_mcp_jointbody
+  link_idx: 36
+  parent_joint_idx: 34
+  parent_link_idx: 33
+  children_joint_idxs:
+  - 35
+  children_link_idxs:
+  - 35
+- name: right_ring_ip
+  link_idx: 37
+  parent_joint_idx: 37
+  parent_link_idx: 38
+  children_joint_idxs:
+  - 38
+  children_link_idxs:
+  - 39
+- name: right_ring_pip_jointbody
+  link_idx: 38
+  parent_joint_idx: 36
+  parent_link_idx: 35
+  children_joint_idxs:
+  - 37
+  children_link_idxs:
+  - 37
+- name: right_ring_fingertip
+  link_idx: 39
+  parent_joint_idx: 38
+  parent_link_idx: 37
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: right_pinky_mp
+  link_idx: 40
+  parent_joint_idx: 40
+  parent_link_idx: 41
+  children_joint_idxs:
+  - 41
+  children_link_idxs:
+  - 43
+- name: right_pinky_abd_jointbody
+  link_idx: 41
+  parent_joint_idx: 39
+  parent_link_idx: 5
+  children_joint_idxs:
+  - 40
+  children_link_idxs:
+  - 40
+- name: right_pinky_pp
+  link_idx: 42
+  parent_joint_idx: 42
+  parent_link_idx: 43
+  children_joint_idxs:
+  - 43
+  children_link_idxs:
+  - 45
+- name: right_pinky_mcp_jointbody
+  link_idx: 43
+  parent_joint_idx: 41
+  parent_link_idx: 40
+  children_joint_idxs:
+  - 42
+  children_link_idxs:
+  - 42
+- name: right_pinky_ip
+  link_idx: 44
+  parent_joint_idx: 44
+  parent_link_idx: 45
+  children_joint_idxs:
+  - 45
+  children_link_idxs:
+  - 46
+- name: right_pinky_pip_jointbody
+  link_idx: 45
+  parent_joint_idx: 43
+  parent_link_idx: 42
+  children_joint_idxs:
+  - 44
+  children_link_idxs:
+  - 44
+- name: right_pinky_fingertip
+  link_idx: 46
+  parent_joint_idx: 45
+  parent_link_idx: 44
+  children_joint_idxs: []
+  children_link_idxs: []
+joints_in_chain:
+- joint_name: right_tower_joint1
+  joint_idx: 0
+  parent_link_name: right_tower
+  parent_link_idx: 1
+  child_link_name: right_tower1
+  child_link_idx: 2
+- joint_name: right_tower_joint2
+  joint_idx: 1
+  parent_link_name: right_tower
+  parent_link_idx: 1
+  child_link_name: right_tower2
+  child_link_idx: 3
+- joint_name: world2right_tower_fixed
+  joint_idx: 2
+  parent_link_name: world
+  parent_link_idx: 0
+  child_link_name: world2right_tower_fixed_jointbody
+  child_link_idx: 4
+- joint_name: world2right_tower_fixed_offset
+  joint_idx: 3
+  parent_link_name: world2right_tower_fixed_jointbody
+  parent_link_idx: 4
+  child_link_name: right_tower
+  child_link_idx: 1
+- joint_name: right_palm_joint
+  joint_idx: 4
+  parent_link_name: right_palm
+  parent_link_idx: 5
+  child_link_name: right_palm2
+  child_link_idx: 6
+- joint_name: right_wrist
+  joint_idx: 5
+  parent_link_name: right_tower
+  parent_link_idx: 1
+  child_link_name: right_wrist_jointbody
+  child_link_idx: 7
+- joint_name: right_wrist_offset
+  joint_idx: 6
+  parent_link_name: right_wrist_jointbody
+  parent_link_idx: 7
+  child_link_name: right_palm
+  child_link_idx: 5
+- joint_name: right_thumb_mcp
+  joint_idx: 7
+  parent_link_name: right_palm
+  parent_link_idx: 5
+  child_link_name: right_thumb_mcp_jointbody
+  child_link_idx: 9
+- joint_name: right_thumb_mcp_offset
+  joint_idx: 8
+  parent_link_name: right_thumb_mcp_jointbody
+  parent_link_idx: 9
+  child_link_name: right_thumb_mp
+  child_link_idx: 8
+- joint_name: right_thumb_abd
+  joint_idx: 9
+  parent_link_name: right_thumb_mp
+  parent_link_idx: 8
+  child_link_name: right_thumb_abd_jointbody
+  child_link_idx: 11
+- joint_name: right_thumb_abd_offset
+  joint_idx: 10
+  parent_link_name: right_thumb_abd_jointbody
+  parent_link_idx: 11
+  child_link_name: right_thumb_pp
+  child_link_idx: 10
+- joint_name: right_thumb_ip_joint
+  joint_idx: 11
+  parent_link_name: right_thumb_ip
+  parent_link_idx: 12
+  child_link_name: right_thumb_ip2
+  child_link_idx: 13
+- joint_name: right_thumb_pip
+  joint_idx: 12
+  parent_link_name: right_thumb_pp
+  parent_link_idx: 10
+  child_link_name: right_thumb_pip_jointbody
+  child_link_idx: 14
+- joint_name: right_thumb_pip_offset
+  joint_idx: 13
+  parent_link_name: right_thumb_pip_jointbody
+  parent_link_idx: 14
+  child_link_name: right_thumb_ip
+  child_link_idx: 12
+- joint_name: right_thumb_dp_joint
+  joint_idx: 14
+  parent_link_name: right_thumb_dp
+  parent_link_idx: 15
+  child_link_name: right_thumb_dp2
+  child_link_idx: 16
+- joint_name: right_thumb_dip
+  joint_idx: 15
+  parent_link_name: right_thumb_ip
+  parent_link_idx: 12
+  child_link_name: right_thumb_dip_jointbody
+  child_link_idx: 17
+- joint_name: right_thumb_dip_offset
+  joint_idx: 16
+  parent_link_name: right_thumb_dip_jointbody
+  parent_link_idx: 17
+  child_link_name: right_thumb_dp
+  child_link_idx: 15
+- joint_name: thumb_dp2right_thumb_fingertip_fixed_offset
+  joint_idx: 17
+  parent_link_name: right_thumb_dp
+  parent_link_idx: 15
+  child_link_name: right_thumb_fingertip
+  child_link_idx: 18
+- joint_name: right_index_abd
+  joint_idx: 18
+  parent_link_name: right_palm
+  parent_link_idx: 5
+  child_link_name: right_index_abd_jointbody
+  child_link_idx: 20
+- joint_name: right_index_abd_offset
+  joint_idx: 19
+  parent_link_name: right_index_abd_jointbody
+  parent_link_idx: 20
+  child_link_name: right_index_mp
+  child_link_idx: 19
+- joint_name: right_index_mcp
+  joint_idx: 20
+  parent_link_name: right_index_mp
+  parent_link_idx: 19
+  child_link_name: right_index_mcp_jointbody
+  child_link_idx: 22
+- joint_name: right_index_mcp_offset
+  joint_idx: 21
+  parent_link_name: right_index_mcp_jointbody
+  parent_link_idx: 22
+  child_link_name: right_index_pp
+  child_link_idx: 21
+- joint_name: right_index_pip
+  joint_idx: 22
+  parent_link_name: right_index_pp
+  parent_link_idx: 21
+  child_link_name: right_index_pip_jointbody
+  child_link_idx: 24
+- joint_name: right_index_pip_offset
+  joint_idx: 23
+  parent_link_name: right_index_pip_jointbody
+  parent_link_idx: 24
+  child_link_name: right_index_ip
+  child_link_idx: 23
+- joint_name: right_index_ip2right_index_fingertip_fixed_offset
+  joint_idx: 24
+  parent_link_name: right_index_ip
+  parent_link_idx: 23
+  child_link_name: right_index_fingertip
+  child_link_idx: 25
+- joint_name: right_middle_abd
+  joint_idx: 25
+  parent_link_name: right_palm
+  parent_link_idx: 5
+  child_link_name: right_middle_abd_jointbody
+  child_link_idx: 27
+- joint_name: right_middle_abd_offset
+  joint_idx: 26
+  parent_link_name: right_middle_abd_jointbody
+  parent_link_idx: 27
+  child_link_name: right_middle_mp
+  child_link_idx: 26
+- joint_name: right_middle_mcp
+  joint_idx: 27
+  parent_link_name: right_middle_mp
+  parent_link_idx: 26
+  child_link_name: right_middle_mcp_jointbody
+  child_link_idx: 29
+- joint_name: right_middle_mcp_offset
+  joint_idx: 28
+  parent_link_name: right_middle_mcp_jointbody
+  parent_link_idx: 29
+  child_link_name: right_middle_pp
+  child_link_idx: 28
+- joint_name: right_middle_pip
+  joint_idx: 29
+  parent_link_name: right_middle_pp
+  parent_link_idx: 28
+  child_link_name: right_middle_pip_jointbody
+  child_link_idx: 31
+- joint_name: right_middle_pip_offset
+  joint_idx: 30
+  parent_link_name: right_middle_pip_jointbody
+  parent_link_idx: 31
+  child_link_name: right_middle_ip
+  child_link_idx: 30
+- joint_name: right_middle_ip2right_index_fingertip_fixed_offset
+  joint_idx: 31
+  parent_link_name: right_middle_ip
+  parent_link_idx: 30
+  child_link_name: right_middle_fingertip
+  child_link_idx: 32
+- joint_name: right_ring_abd
+  joint_idx: 32
+  parent_link_name: right_palm
+  parent_link_idx: 5
+  child_link_name: right_ring_abd_jointbody
+  child_link_idx: 34
+- joint_name: right_ring_abd_offset
+  joint_idx: 33
+  parent_link_name: right_ring_abd_jointbody
+  parent_link_idx: 34
+  child_link_name: right_ring_mp
+  child_link_idx: 33
+- joint_name: right_ring_mcp
+  joint_idx: 34
+  parent_link_name: right_ring_mp
+  parent_link_idx: 33
+  child_link_name: right_ring_mcp_jointbody
+  child_link_idx: 36
+- joint_name: right_ring_mcp_offset
+  joint_idx: 35
+  parent_link_name: right_ring_mcp_jointbody
+  parent_link_idx: 36
+  child_link_name: right_ring_pp
+  child_link_idx: 35
+- joint_name: right_ring_pip
+  joint_idx: 36
+  parent_link_name: right_ring_pp
+  parent_link_idx: 35
+  child_link_name: right_ring_pip_jointbody
+  child_link_idx: 38
+- joint_name: right_ring_pip_offset
+  joint_idx: 37
+  parent_link_name: right_ring_pip_jointbody
+  parent_link_idx: 38
+  child_link_name: right_ring_ip
+  child_link_idx: 37
+- joint_name: right_ring_ip2right_index_fingertip_fixed_offset
+  joint_idx: 38
+  parent_link_name: right_ring_ip
+  parent_link_idx: 37
+  child_link_name: right_ring_fingertip
+  child_link_idx: 39
+- joint_name: right_pinky_abd
+  joint_idx: 39
+  parent_link_name: right_palm
+  parent_link_idx: 5
+  child_link_name: right_pinky_abd_jointbody
+  child_link_idx: 41
+- joint_name: right_pinky_abd_offset
+  joint_idx: 40
+  parent_link_name: right_pinky_abd_jointbody
+  parent_link_idx: 41
+  child_link_name: right_pinky_mp
+  child_link_idx: 40
+- joint_name: right_pinky_mcp
+  joint_idx: 41
+  parent_link_name: right_pinky_mp
+  parent_link_idx: 40
+  child_link_name: right_pinky_mcp_jointbody
+  child_link_idx: 43
+- joint_name: right_pinky_mcp_offset
+  joint_idx: 42
+  parent_link_name: right_pinky_mcp_jointbody
+  parent_link_idx: 43
+  child_link_name: right_pinky_pp
+  child_link_idx: 42
+- joint_name: right_pinky_pip
+  joint_idx: 43
+  parent_link_name: right_pinky_pp
+  parent_link_idx: 42
+  child_link_name: right_pinky_pip_jointbody
+  child_link_idx: 45
+- joint_name: right_pinky_pip_offset
+  joint_idx: 44
+  parent_link_name: right_pinky_pip_jointbody
+  parent_link_idx: 45
+  child_link_name: right_pinky_ip
+  child_link_idx: 44
+- joint_name: right_pinky_ip2right_index_fingertip_fixed_offset
+  joint_idx: 45
+  parent_link_name: right_pinky_ip
+  parent_link_idx: 44
+  child_link_name: right_pinky_fingertip
+  child_link_idx: 46
+kinematic_hierarchy:
+- - 0
+- - 4
+- - 1
+- - 2
+  - 3
+  - 7
+- - 5
+- - 6
+  - 9
+  - 20
+  - 27
+  - 34
+  - 41
+- - 8
+  - 19
+  - 26
+  - 33
+  - 40
+- - 11
+  - 22
+  - 29
+  - 36
+  - 43
+- - 10
+  - 21
+  - 28
+  - 35
+  - 42
+- - 14
+  - 24
+  - 31
+  - 38
+  - 45
+- - 12
+  - 23
+  - 30
+  - 37
+  - 44
+- - 13
+  - 17
+  - 25
+  - 32
+  - 39
+  - 46
+- - 15
+- - 16
+  - 18
+root_idx: 0

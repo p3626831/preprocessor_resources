@@ -1,0 +1,471 @@
+stl_link_mesh_relative_paths:
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/wristmesh/0.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/wristmesh/1.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/wristmesh/2.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/wristmesh/3.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/wristmesh/4.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/wristmesh/5.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/wristmesh/6.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/wristmesh/7.stl
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/FB_palm_ref/0.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/FB_palm_ref/1.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/FB_palm_ref/2.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/FB_palm_ref/3.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/FB_palm_ref/4.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/FB_palm_ref/5.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/FB_palm_ref/6.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/FB_palm_ref/7.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/FB_palm_ref/8.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/FB_palm_ref/9.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/FB_palm_ref/10.stl
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/0.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/1.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/2.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/3.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/4.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/5.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/6.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/7.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/8.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/9.stl
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/0.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/1.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/2.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/3.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/4.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/5.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/6.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/7.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/8.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/9.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/10.stl
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/0.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/1.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/2.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/3.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/4.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/5.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/6.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/7.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/8.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/9.stl
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/0.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/1.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/2.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/3.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/4.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/5.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/6.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/7.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/8.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/9.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/10.stl
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/0.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/1.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/2.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/3.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/4.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/5.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/6.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/7.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/8.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/9.stl
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/0.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/1.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/2.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/3.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/4.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/5.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/6.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/7.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/8.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/9.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/10.stl
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/0.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/1.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/2.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/3.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/4.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/5.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/6.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/7.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/8.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F1/9.stl
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/0.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/1.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/2.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/3.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/4.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/5.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/6.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/7.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/8.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/9.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/idx-F2-Lg/10.stl
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F1/0.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F1/1.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F1/2.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F1/3.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F1/4.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F1/5.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F1/6.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F1/7.stl
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F2-left/0.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F2-left/1.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F2-left/2.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F2-left/3.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F2-left/4.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F2-left/5.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F2-left/6.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F2-left/7.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F2-left/8.stl
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/stl/thumb-F2-left/9.stl
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+obj_link_mesh_relative_paths:
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/wristmesh/0.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/wristmesh/1.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/wristmesh/2.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/wristmesh/3.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/wristmesh/4.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/wristmesh/5.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/wristmesh/6.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/wristmesh/7.obj
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/FB_palm_ref/0.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/FB_palm_ref/1.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/FB_palm_ref/2.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/FB_palm_ref/3.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/FB_palm_ref/4.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/FB_palm_ref/5.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/FB_palm_ref/6.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/FB_palm_ref/7.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/FB_palm_ref/8.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/FB_palm_ref/9.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/FB_palm_ref/10.obj
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/0.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/1.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/2.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/3.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/4.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/5.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/6.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/7.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/8.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/9.obj
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/0.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/1.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/2.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/3.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/4.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/5.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/6.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/7.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/8.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/9.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/10.obj
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/0.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/1.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/2.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/3.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/4.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/5.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/6.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/7.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/8.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/9.obj
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/0.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/1.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/2.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/3.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/4.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/5.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/6.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/7.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/8.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/9.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/10.obj
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/0.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/1.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/2.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/3.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/4.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/5.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/6.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/7.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/8.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/9.obj
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/0.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/1.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/2.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/3.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/4.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/5.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/6.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/7.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/8.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/9.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/10.obj
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/0.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/1.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/2.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/3.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/4.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/5.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/6.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/7.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/8.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F1/9.obj
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/0.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/1.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/2.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/3.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/4.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/5.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/6.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/7.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/8.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/9.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/idx-F2-Lg/10.obj
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F1/0.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F1/1.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F1/2.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F1/3.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F1/4.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F1/5.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F1/6.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F1/7.obj
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F2-left/0.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F2-left/1.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F2-left/2.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F2-left/3.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F2-left/4.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F2-left/5.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F2-left/6.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F2-left/7.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F2-left/8.obj
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/obj/thumb-F2-left/9.obj
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+glb_link_mesh_relative_paths:
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/wristmesh/0.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/wristmesh/1.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/wristmesh/2.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/wristmesh/3.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/wristmesh/4.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/wristmesh/5.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/wristmesh/6.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/wristmesh/7.glb
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/FB_palm_ref/0.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/FB_palm_ref/1.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/FB_palm_ref/2.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/FB_palm_ref/3.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/FB_palm_ref/4.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/FB_palm_ref/5.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/FB_palm_ref/6.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/FB_palm_ref/7.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/FB_palm_ref/8.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/FB_palm_ref/9.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/FB_palm_ref/10.glb
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/0.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/1.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/2.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/3.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/4.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/5.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/6.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/7.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/8.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/9.glb
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/0.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/1.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/2.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/3.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/4.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/5.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/6.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/7.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/8.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/9.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/10.glb
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/0.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/1.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/2.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/3.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/4.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/5.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/6.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/7.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/8.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/9.glb
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/0.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/1.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/2.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/3.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/4.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/5.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/6.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/7.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/8.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/9.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/10.glb
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/0.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/1.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/2.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/3.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/4.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/5.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/6.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/7.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/8.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/9.glb
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/0.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/1.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/2.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/3.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/4.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/5.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/6.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/7.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/8.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/9.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/10.glb
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/0.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/1.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/2.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/3.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/4.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/5.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/6.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/7.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/8.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F1/9.glb
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/0.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/1.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/2.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/3.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/4.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/5.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/6.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/7.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/8.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/9.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/idx-F2-Lg/10.glb
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F1/0.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F1/1.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F1/2.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F1/3.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F1/4.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F1/5.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F1/6.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F1/7.glb
+- - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F2-left/0.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F2-left/1.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F2-left/2.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F2-left/3.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F2-left/4.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F2-left/5.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F2-left/6.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F2-left/7.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F2-left/8.glb
+  - ability_hand_left/mesh_modules/convex_decomposition_meshes_module/meshes/glb/thumb-F2-left/9.glb
+- []
+- []
+- []
+- []
+- []
+- []
+- []

@@ -1,0 +1,161 @@
+links_in_chain:
+- name: robotiq_arg2f_base_link
+  link_idx: 0
+  parent_joint_idx: null
+  parent_link_idx: null
+  children_joint_idxs:
+  - 0
+  - 2
+  - 5
+  - 7
+  children_link_idxs:
+  - 1
+  - 5
+  - 6
+  - 10
+- name: left_outer_knuckle
+  link_idx: 1
+  parent_joint_idx: 0
+  parent_link_idx: 0
+  children_joint_idxs:
+  - 1
+  children_link_idxs:
+  - 2
+- name: left_outer_finger
+  link_idx: 2
+  parent_joint_idx: 1
+  parent_link_idx: 1
+  children_joint_idxs:
+  - 3
+  children_link_idxs:
+  - 3
+- name: left_inner_finger
+  link_idx: 3
+  parent_joint_idx: 3
+  parent_link_idx: 2
+  children_joint_idxs:
+  - 4
+  children_link_idxs:
+  - 4
+- name: left_inner_finger_pad
+  link_idx: 4
+  parent_joint_idx: 4
+  parent_link_idx: 3
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: left_inner_knuckle
+  link_idx: 5
+  parent_joint_idx: 2
+  parent_link_idx: 0
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: right_outer_knuckle
+  link_idx: 6
+  parent_joint_idx: 5
+  parent_link_idx: 0
+  children_joint_idxs:
+  - 6
+  children_link_idxs:
+  - 7
+- name: right_outer_finger
+  link_idx: 7
+  parent_joint_idx: 6
+  parent_link_idx: 6
+  children_joint_idxs:
+  - 8
+  children_link_idxs:
+  - 8
+- name: right_inner_finger
+  link_idx: 8
+  parent_joint_idx: 8
+  parent_link_idx: 7
+  children_joint_idxs:
+  - 9
+  children_link_idxs:
+  - 9
+- name: right_inner_finger_pad
+  link_idx: 9
+  parent_joint_idx: 9
+  parent_link_idx: 8
+  children_joint_idxs: []
+  children_link_idxs: []
+- name: right_inner_knuckle
+  link_idx: 10
+  parent_joint_idx: 7
+  parent_link_idx: 0
+  children_joint_idxs: []
+  children_link_idxs: []
+joints_in_chain:
+- joint_name: finger_joint
+  joint_idx: 0
+  parent_link_name: robotiq_arg2f_base_link
+  parent_link_idx: 0
+  child_link_name: left_outer_knuckle
+  child_link_idx: 1
+- joint_name: left_outer_finger_joint
+  joint_idx: 1
+  parent_link_name: left_outer_knuckle
+  parent_link_idx: 1
+  child_link_name: left_outer_finger
+  child_link_idx: 2
+- joint_name: left_inner_knuckle_joint
+  joint_idx: 2
+  parent_link_name: robotiq_arg2f_base_link
+  parent_link_idx: 0
+  child_link_name: left_inner_knuckle
+  child_link_idx: 5
+- joint_name: left_inner_finger_joint
+  joint_idx: 3
+  parent_link_name: left_outer_finger
+  parent_link_idx: 2
+  child_link_name: left_inner_finger
+  child_link_idx: 3
+- joint_name: left_inner_finger_pad_joint
+  joint_idx: 4
+  parent_link_name: left_inner_finger
+  parent_link_idx: 3
+  child_link_name: left_inner_finger_pad
+  child_link_idx: 4
+- joint_name: right_outer_knuckle_joint
+  joint_idx: 5
+  parent_link_name: robotiq_arg2f_base_link
+  parent_link_idx: 0
+  child_link_name: right_outer_knuckle
+  child_link_idx: 6
+- joint_name: right_outer_finger_joint
+  joint_idx: 6
+  parent_link_name: right_outer_knuckle
+  parent_link_idx: 6
+  child_link_name: right_outer_finger
+  child_link_idx: 7
+- joint_name: right_inner_knuckle_joint
+  joint_idx: 7
+  parent_link_name: robotiq_arg2f_base_link
+  parent_link_idx: 0
+  child_link_name: right_inner_knuckle
+  child_link_idx: 10
+- joint_name: right_inner_finger_joint
+  joint_idx: 8
+  parent_link_name: right_outer_finger
+  parent_link_idx: 7
+  child_link_name: right_inner_finger
+  child_link_idx: 8
+- joint_name: right_inner_finger_pad_joint
+  joint_idx: 9
+  parent_link_name: right_inner_finger
+  parent_link_idx: 8
+  child_link_name: right_inner_finger_pad
+  child_link_idx: 9
+kinematic_hierarchy:
+- - 0
+- - 1
+  - 5
+  - 6
+  - 10
+- - 2
+  - 7
+- - 3
+  - 8
+- - 4
+  - 9
+root_idx: 0
